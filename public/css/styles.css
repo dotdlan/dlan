@@ -1,19 +1,17 @@
-a:link {
-    text-decoration: none;
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
 }
 
-a:visited {
+.site-header a {
+    color: cadetblue;
+    transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+    color: #fff;
     text-decoration: none;
 }
-
-a:hover {
-    text-decoration: none;
-}
-
-a:active {
-    text-decoration: none;
-}
-
 main img {
     width: 150px;
     margin-top: 50px;
