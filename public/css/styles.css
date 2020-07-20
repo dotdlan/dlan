@@ -13,3 +13,8 @@ a:hover {
 a:active {
     text-decoration: none;
 }
+
+main img {
+    width: 150px;
+    margin-top: 50px;
+}
