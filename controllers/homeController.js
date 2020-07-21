@@ -17,8 +17,4 @@ router.get('/projects', (req, res) =>{
     res.render('pages/projects.ejs')
 })
 
-router.get('/social', (req, res) =>{
-    res.render('pages/social.ejs')
-})
-
 module.exports = router;
