@@ -14,10 +14,10 @@ app.use(express.static('public'))
 const homeController = require('./controllers/homeController.js')
 app.use('/', homeController)
 
-//home route
-app.get('/', (req, res) => {
-    res.redirect('/')
-})
+// //home route
+// app.get('/', (req, res) => {
+//     res.redirect('/')
+// })
 
 //app listening port
 app.listen(PORT, () => {
