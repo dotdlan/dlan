@@ -16,3 +16,36 @@ main img {
     width: 150px;
     margin-top: 50px;
 }
+
+.site-main-img{
+    background-image: url("../images/code.png");
+}
+.arrivals{
+    background-color: LightSteelBlue;
+}
+.arrivals img{
+    width: 100%;
+}
+.stats{
+    background-color: rgb(2,106,195);
+}
+.stats img{
+    width: 100%;
+}
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+}
+@media (min-width: 768px) {
+    .flex-md-equal > * {
+        -ms-flex: 1;
+        flex: 1;
+    }
+}
+
+.overflow-hidden { overflow: hidden; }
