@@ -3,9 +3,10 @@ const express = require('express')
 
 //config
 const app = express()
+require('dotenv').config()
 
 //PORT
-const PORT = 3000
+const PORT = process.env.PORT || 3000
 
 //use the public folder
 app.use(express.static('public'))
@@ -14,10 +15,10 @@ app.use(express.static('public'))
 const homeController = require('./controllers/homeController.js')
 app.use('/', homeController)
 
-// //home route
-// app.get('/', (req, res) => {
-//     res.redirect('/')
-// })
+//home route
+app.get('/', (req, res) => {
+    res.redirect('/')
+})
 
 //app listening port
 app.listen(PORT, () => {
