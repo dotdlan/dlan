@@ -15,10 +15,12 @@
     color: cadetblue;
     transition: ease-in-out color .15s;
 }
+
 .site-header a:hover {
     color: #fff;
     text-decoration: none;
 }
+
 main img {
     width: 150px;
     margin-top: 50px;
@@ -38,12 +40,15 @@ main img {
 .arrivals{
     background-color: LightSteelBlue;
 }
+
 .arrivals img{
     width: 100%;
 }
+
 .stats{
     background-color: rgb(2,106,195);
 }
+
 .stats img{
     width: 100%;
 }
@@ -65,6 +70,7 @@ main img {
     -ms-flex: 1;
     flex: 1;
 }
+
 @media (min-width: 768px) {
     .flex-md-equal > * {
         -ms-flex: 1;
